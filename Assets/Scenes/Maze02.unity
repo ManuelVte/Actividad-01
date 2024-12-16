@@ -9325,7 +9325,7 @@ GameObject:
   - component: {fileID: 155527481}
   - component: {fileID: 155527482}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: Audio Source Esclavo 04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18846,7 +18846,7 @@ GameObject:
   - component: {fileID: 351406931}
   - component: {fileID: 351406932}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: Audio Source Esclavo 03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19632,6 +19632,153 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12deabe9c2e33884ba232b221474d80b, type: 3}
+--- !u!1 &358731721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 358731724}
+  - component: {fileID: 358731723}
+  - component: {fileID: 358731722}
+  m_Layer: 0
+  m_Name: Audio Source Maestro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!82 &358731722
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358731721}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9ee5df279b6d7f943a7fb3e234bcfaa0, type: 3}
+  m_Resource: {fileID: 8300000, guid: 9ee5df279b6d7f943a7fb3e234bcfaa0, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 125
+  DopplerLevel: 1
+  MinDistance: 2
+  MaxDistance: 5000
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.2777778
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &358731723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358731721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd23a1e6f3f0c364aa62f637e48e491e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mastro: {fileID: 358731722}
+  esclavo01: {fileID: 1237792496}
+  esclavo02: {fileID: 2093244108}
+  esclavo03: {fileID: 351406932}
+  esclavo04: {fileID: 155527482}
+--- !u!4 &358731724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358731721}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5, y: 6, z: 12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &359622697
 GameObject:
   m_ObjectHideFlags: 0
@@ -63648,7 +63795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7ee9775d098a324f8140b118a004572, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  recursoAudio: {fileID: 1237792496}
+  recursoAudio: {fileID: 358731722}
   actualizarPaso: 0.1
   longitudDatosMuestra: 1024
   clipSonoridad: 0
@@ -74731,7 +74878,7 @@ GameObject:
   - component: {fileID: 1237792497}
   - component: {fileID: 1237792496}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: Audio Source Esclavo 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -100663,7 +100810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7ee9775d098a324f8140b118a004572, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  recursoAudio: {fileID: 1237792496}
+  recursoAudio: {fileID: 358731722}
   actualizarPaso: 0.1
   longitudDatosMuestra: 1024
   clipSonoridad: 0
@@ -122879,7 +123026,7 @@ GameObject:
   - component: {fileID: 2093244107}
   - component: {fileID: 2093244108}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: Audio Source Esclavo 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -126215,4 +126362,5 @@ SceneRoots:
   - {fileID: 2081755766}
   - {fileID: 357503940}
   - {fileID: 1082437723}
+  - {fileID: 358731724}
   - {fileID: 672166782}
